@@ -1,6 +1,9 @@
 # newsSitesCrawl
 Crawls some specified news sites for a particular name and checks for others people's name in the scraped data.
 
+***This PROJECT was made during my internship at Indian Institute of Management-Calcutta.
+
+
 Import the functions in the news_bot.py and call them with required name to query in those news sites.
 Some sites have been crawled using requests and others with selenium.
 
@@ -12,4 +15,5 @@ people together in some news on those sites and to show the count and links for 
 
 
 
-NB: This project was made during my internship at Indian Institute of Management-Calcutta.
+NB: The sets given with this project was needed for my project so this doesnt need to
+be download by everyone.

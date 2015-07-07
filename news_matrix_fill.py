@@ -36,7 +36,7 @@ def validate(nameSet,data,hash_back):
 def crawl_bot(path,total_sets):
     names = []
     for i in xrange(38,total_sets+1):
-        file_name = path + r'\SET' + str(i) + '.txt'
+        file_name = path + r'\SETS\SET' + str(i) + '.txt'
         f=open(file_name,'r')
         names.append(f.next().strip())
         f.close()
@@ -114,7 +114,7 @@ def main():
         hash_back = {}
         nameSet_list = [' ']
         comb_str = ''
-        f=open(path+r'\SET'+str(set_no)+'.txt','r')
+        f=open(path+r'\SETS\SET'+str(set_no)+'.txt','r')
         names = [name.strip() for name in f.readlines()]
         f.close()
         for name in names:
